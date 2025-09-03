@@ -1,0 +1,86 @@
+body {
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  background: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-container {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.home-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111827;
+}
+
+.home-text {
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.signup-btn {
+  background: purple;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.signup-btn:hover {
+  background: darkviolet;
+}
+
+.login-btn {
+  background: #e9d5ff;
+  color: #1f2937;
+}
+
+.login-btn:hover {
+  background: #d8b4fe;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .home-card {
+    padding: 30px 25px;
+    margin: 10px;
+  }
+
+  .home-title {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    padding: 12px 20px;
+    font-size: 0.95rem;
+  }
+}

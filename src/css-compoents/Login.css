@@ -1,0 +1,103 @@
+body {
+  background: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container full center */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card box */
+.login-card {
+  width: 320px;
+  height: 550px;
+  background: #f9f5ff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Title */
+.login-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+/* Sub text */
+.login-subtext {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Form group */
+.form-group {
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #7c3aed;
+  margin-bottom: 4px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.form-input:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.3s, cursor 0.3s;
+}
+
+.login-btn.active {
+  background: #7c3aed;
+  color: white;
+  cursor: pointer;
+}
+
+.login-btn.active:hover {
+  background: #6d28d9;
+}
+
+.login-btn.disabled {
+  background: #d8b4fe;
+  color: white;
+  cursor: not-allowed;
+}
