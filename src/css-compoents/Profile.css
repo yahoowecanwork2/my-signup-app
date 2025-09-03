@@ -1,0 +1,108 @@
+
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: white;
+}
+
+.profile-card {
+  width: 20rem; /* 80 */
+  height: 500px;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-header {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: white;
+}
+
+.profile-header h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.profile-body {
+  flex: 1;
+  background: #f9f5ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.profile-image-wrapper {
+  position: relative;
+}
+
+.profile-image {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #7c3aed; /* purple */
+  padding: 0.25rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.camera-img {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.profile-name {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #111827;
+}
+
+.profile-email {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.profile-description {
+  padding: 0 1rem 1rem;
+}
+
+.profile-description p {
+  font-size: 0.75rem;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+.profile-divider {
+  flex: 1;
+  border-top: 1px dashed #e5e7eb;
+}
+
+.profile-footer {
+  height: 2rem;
+  border-top: 1px dashed #e5e7eb;
+}
