@@ -1,12 +1,28 @@
-# React + Vite
+# React + Vite - My Signup App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using **React** with **Vite** for fast development and optimized build.  
+It includes **Hot Module Replacement (HMR)** and **ESLint rules** for better code quality.
 
+## 🚀 Live Demo
+🔗 [My Signup App](http://my-signup-app.netlify.app)
+
+## ⚡ Features
+- React + Vite setup with Fast Refresh
+- ESLint integration for linting
+- Minimal and clean project structure
+- Ready for customization
+
+## 📦 Plugins Used
 Currently, two official plugins are available:
+- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react) → uses **Babel** for Fast Refresh
+- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react-swc) → uses **SWC** for Fast Refresh
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Getting Started
 
-## Expanding the ESLint configuration
+Clone the repository and install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone <your-repo-link>
+cd my-signup-app
+npm install
+npm run dev
